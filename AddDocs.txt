@@ -1,0 +1,28 @@
+git clone https://github.com/markojovanov/SI_2022_lab1_181133.git
+git add .
+git commit -m "Add 5 items to the shopping list"
+git add .
+git commit -m "Add quantities to the items"
+git checkout -b branch1
+git push -u origin branch1
+git checkout -b branch2
+git push -u origin branch2
+git checkout branch1
+git add .
+git commit -m "Change quantity of item #5"
+git push -u origin branch1
+git checkout master
+git add .
+git commit -m "Change quantity of item #2"
+git push -u origin master
+git checkout branch2
+git add .
+git commit -m "Modify item #4"
+git push -u origin branch2
+git merge branch1
+git commit -m "Merge branch1 into master"
+git push -u origin master
+git merge branch2
+git commit -m "Merge branch2 into master"
+git push -u origin master
+}
