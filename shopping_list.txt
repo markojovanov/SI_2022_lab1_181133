@@ -3,3 +3,4 @@
 3. Yogurt x1
 4. Chicken x4
 5. Tuna x6
+6. New item x1
